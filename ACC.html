@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wolf Black Name</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#ffffff;
+}
+
+/* HEADER */
+header{
+    background:#000000;
+    color:#ffffff;
+    text-align:center;
+    padding:30px 20px;
+}
+
+nav{
+    background:#111;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:bold;
+}
+
+/* BANNER */
+.banner{
+    background:linear-gradient(to right,#7a7a7a,#555050);
+    color:rgb(255, 255, 255);
+    text-align:center;
+    padding:100px 20px;
+}
+
+.banner h2{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+/* CONTAINER */
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:30px;
+}
+
+/* PRODUTOS */
+.produtos{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.produto{
+    background:rgb(255, 255, 255);
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgb(0, 0, 0);
+    text-align:center;
+}
+
+.produto h3{
+    margin:15px 0 10px;
+}
+
+.preco{
+    color:#27ae60;
+    font-weight:bold;
+    font-size:18px;
+    margin-bottom:15px;
+}
+
+.botao{
+    display:inline-block;
+    padding:10px 20px;
+    background:black;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+/* SOBRE */
+.sobre{
+    background:white;
+    border-radius:10px;
+    padding:30px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* CONTATO */
+.contato{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* FOOTER */
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:50px;
+}
+
+@media(max-width:600px){
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+}
+h1 {
+      animation: aparecer 1.0s ease forwards;
+    }
+
+    @keyframes aparecer {
+      from {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(10);
+      }
+    }
+    h1 {
+  color: #ffffff;
+  text-shadow:
+    0 0 10px #000000,
+    0 0 20px #000000,
+    0 0 40px #ffffff,
+    0 0 80px #ffffff;
+}
+
+/* Variação com cor rosa */
+.neon-pink {
+  color: #ff0000;
+  text-shadow:
+    0 0 10px #000000,
+    0 0 30px #000000,
+    0 0 60px #ffffff;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Lobo Negro</h1>
+<p>Acessórios para Homen e mulher Premium</p>
+</header>
+
+<nav>
+<a href="#produtos">Produtos</a>
+<a href="#sobre">Sobre</a>
+<a href="#contato">Contato</a>
+</nav>
+
+<section class="banner">
+<h2>Estilo. Elegância. Poder.</h2>
+<p>Descubra os melhores acessórios para homens e mulher estar aqui.</p>
+</section>
+
+<section class="container" id="produtos">
+<h2>Nossos Produtos</h2>
+
+<div class="produtos">
+
+<div class="produto">
+<img src="https://tse1.mm.bing.net/th/id/OIP.q__SosB-BZcpHJTdQHYgkwHaFj?rs=1&pid=ImgDetMain&o=7&rm=3"alt="" width="200" height="200">
+<h3>Relógio Luxo</h3>
+<p class="preco">R$ 299,90</p>
+<a href="#" class="botao">Comprar</a>
+</div>
+
+<div class="produto">
+<img src="https://tse4.mm.bing.net/th/id/OIP.AgbUWdJy9oyBj5287lbiyAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"alt="" width="200">
+<h3>Relógio para Mulher</h3>
+<p class="preco">R$ 129,90</p>
+<a href="#" class="botao">Comprar</a>
+</div>
+
+<div class="produto">
+<img src="https://i.pinimg.com/736x/cd/9f/d3/cd9fd3173d5862c02e77b57ea8bb1666.jpg"alt="" width="200" height="200">
+<h3>Óculos Premium</h3>
+<p class="preco">R$ 149,99</p>
+<a href="#" class="botao">Comprar</a>
+</div>
+
+<div class="produto">
+<img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-m3vh1gntdrg57f"alt="" width="200" height="200">
+<h3>Cinto Elegante</h3>
+<p class="preco">R$ 119,99</p>
+<a href="#" class="botao">Comprar</a>
+</div>
+
+<div class="produto">
+<img src="https://img.elo7.com.br/product/zoom/28498A9/pulseiras-masculinas-couro-livrai-do-mal-e-pedras-kit-c-04-pulseira-fe.jpg"alt="" width="200" height="200">
+<h3>Pulseira Masculina</h3>
+<p class="preco">R$ 79,90</p>
+<a href="#" class="botao">Comprar</a>
+</div>
+
+<div class="produto">
+<img src="https://tse3.mm.bing.net/th/id/OIP.yIcoHxIRdrGkLVBK00vPwgAAAA?rs=1&pid=ImgDetMain&o=7&rm=3"alt="" width="200" height="200">
+<h3>Corrente Aço Inox</h3>
+<p class="preco">R$ 119,90</p>
+<a href="#" class="botao">Comprar</a>
+</div>
+
+<div class="produto">
+<img src="">
+<h3>Boné Estiloso</h3>
+<p class="preco">R$ 89,90</p>
+<a href="#" class="botao">Comprar</a>
+</div>
+
+<div class="produto">
+<img src="https://via.placeholder.com/300x200">
+<h3>Bracelete Masculino</h3>
+<p class="preco">R$ 159,90</p>
+<a href="#" class="botao">Comprar</a>
+</div>
+
+</div>
+</section>
+
+<section class="container sobre" id="sobre">
+<h2>Sobre a Loja</h2>
+<p>
+A Prime Man Store foi criada para homens que valorizam elegância e estilo.
+Trabalhamos com acessórios de alta qualidade para elevar seu visual.
+Nosso objetivo é oferecer produtos modernos, sofisticados e acessíveis.
+</p>
+</section>
+
+<section class="container contato" id="contato">
+<h2>Contato</h2>
+<p>Email: contato@primeman.com</p>
+<p>Telefone: (11) 99999-9999</p>
+<p>Endereço: São Paulo - SP</p>
+</section>
+
+<footer>
+© 2026 Prime Man Store - Todos os direitos reservados
+</footer>
+
+</body>
+</html>
